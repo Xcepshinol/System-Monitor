@@ -42,23 +42,23 @@ pip install .
 
 ```bash
 # Run with default settings (0.5s interval)
-bunnycpu
+hopmon
 
 # Customize polling interval (e.g. 1.0s)
-bunnycpu --interval 1.0
+hopmon --interval 1.0
 
 # If running the script directly:
-python bunnycpu.py --interval 0.5
+python systemMonitor.py --interval 0.5
 
 # Toggle the bunny splash on/off
-bunnycpu --bunny
+hopmon --bunny
 ```
 ### 🛠 Manual Usage
 
-Download or clone `bunnycpu.py`, then run:
+Download or clone `systemMonitor.py`, then run:
 
 ```bash
-python bunnycpu.py --interval 0.5
+python systemMonitor.py --interval 0.5
 ```
 
 ## ⚙️ Configuration Options
