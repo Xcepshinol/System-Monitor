@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="hopmon",
     version="0.1.0",
-    py_modules=["bunnycpu"],
+    py_modules=["systemMonitor"],
     install_requires=["psutil", "keyboard"],
     entry_points={
         "console_scripts": [
